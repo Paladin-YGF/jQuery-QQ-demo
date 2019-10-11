@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>QQ音乐播放器</title>
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<div class="header">
+			<h1 class="logo">
+				<a href="javascript:;"></a>
+			</h1>
+			<ul class="register">
+				<li>登陆</li>
+				<li>设置</li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="content_in">
+				<div class="content_left">
+					<div class="top">
+						<span><i></i>收藏</span>
+						<span><i></i>添加到</span>
+						<span><i></i>下载</span>
+						<span><i></i>删除</span>
+						<span><i></i>清空列表</span>
+					</div>
+					<div class="list" data-mcs-theme ="minimal-dark">
+						<ul>
+							<li>
+								<div class="list-checked">
+									<span></span>
+								</div>
+								<div class="list-number"></div>
+								<div class="list-name">歌曲</div>
+								<div class="list-siger">歌手</div>
+								<div class="list-time">时长</div>
+							</li>	
+						</ul>
+					</div>
+				</div>
+				<div class="content_right">
+					<a href="javascript:;">
+						<img src="img/player_cover.png"/>
+					</a>
+					<div class="content_right_sing">
+						<span>歌曲名称：</span>
+						<a href="javascript:;">789</a>
+					</div>
+					<div class="content_right_songer">
+						<span>歌手名：</span>
+						<a href="javascript:;">456</a>
+					</div>
+					<div class="content_right_name">
+						<span>专辑名：</span>
+						<a href="javascript:;">123</a>
+					</div>
+					<Div class="list-sing2">
+						<ul class="list-sing">
+							
+						</ul>
+					</Div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer_in">
+				<a href="javascript:;" title="前一首" class="music_pre"></a>
+				<a href="javascript:;" title="播放" class="music_play"></a>
+				<a href="javascript:;" title="后一首" class="music_next"></a>
+				<div class="music_progress_info">
+					<div class="progress_top">
+						<span class="sing_name"></span>
+						<span class="sing_time"></span>
+					</div>
+					<div class="progress_bottom">
+						<div class="progress_bottom_line">
+							<Div class="progress_bottom_bar"></Div>
+						</div>
+					</div>
+				</div>
+				<a href="javascript:;" title="是否循环" class="music_mode "></a>
+				<a href="javascript:;" title="收藏" class="music_fav"></a>
+				<a href="javascript:;" title="下载" class="music_down"></a>
+				<a href="javascript:;" title="评论" class="music_comment"></a>
+				<a href="javascript:;" title="" class="music_only "></a>
+				<div class="music_voice_info">
+					<a href="javascript:;" class="icon"></a>
+					<div class="music_progress_bottom">
+						<div class="music_rogress_bottom_line">
+							<Div class="music_progress_bottom_bar"></Div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mask"></div>
+		<div class="mask-bg"></div>
+		<audio src="" style="display: none;"></audio>
+		<script src="js/jquery-1.12.4.js"></script>
+		<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="js/player.js"></script>
+		<script src="js/progress.js"></script>
+		<script src="js/lyic.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
